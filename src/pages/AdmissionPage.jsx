@@ -4,10 +4,9 @@ import Footer from "../components/Footer/Footer";
 const AdmissionPage = () => {
     return(
         <> 
-            <div className="header-wrapper">
+            
                 <Header />
-            </div>
-
+            
             <div className="main-wrapper"> 
                 <div className="main-box"> 
                     <div className="main-content-scrollable">

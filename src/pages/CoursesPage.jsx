@@ -1,12 +1,13 @@
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer"; 
 
+
 const CoursesPage = () => {
     return(
         <> 
-            <div className="header-wrapper">
+            
                 <Header />
-            </div>
+            
 
             <div className="main-wrapper"> 
                 <div className="main-box"> 

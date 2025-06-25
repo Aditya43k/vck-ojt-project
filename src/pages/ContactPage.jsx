@@ -5,10 +5,8 @@ import Footer from "../components/Footer/Footer";
 const ContactPage = () => {
     return(
         <> 
-            <div className="header-wrapper">
                 <Header />
-            </div>
-
+            
             <div className="main-wrapper"> 
                 <div className="main-box"> 
                   <div className="main-content-scrollable">
@@ -35,7 +33,6 @@ const ContactPage = () => {
                     </div>
                 </div>
             </div>
-
             <div className="footer-wrapper">
                 <Footer />
             </div>

@@ -3,9 +3,9 @@ import Header from "../components/Header/Header";
 const AboutPage = () => {
     return(
         <> 
-            <div className="header-wrapper">
+            
                 <Header/>
-            </div>
+    
             <div className="main-wrapper"> 
                 <div className="main-box"> 
                     <div className="main-content-scrollable">

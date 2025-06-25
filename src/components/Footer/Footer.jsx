@@ -7,15 +7,8 @@ const Footer = () =>{
 
 
             <footer>
-                <div style={{
-                    backgroundColor:"#rgb(249, 240, 240)",
-                    height:"50px", bottom:"0", 
-                    display:"flex",
-                    
-                    justifyContent:"center",
-                    justifyItems:"center"
-                    }}>
-                        © 2025 Vivekanand College. All rights reserved.
+                <div id="footer">
+                      <p id="footer-text">  © 2025 Vivekanand College. All rights reserved.</p>
                 </div>
             </footer>
 
