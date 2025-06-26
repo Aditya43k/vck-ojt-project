@@ -5,7 +5,7 @@ import CoursesPage from "./pages/CoursesPage"
 import ContactPage from "./pages/ContactPage"
 // import AdmissionPage from "./pages/AdmissionPage"
 import ChatbotComponent from "./components/Chatbot/ChatbotComponent"
-import DeveloperInfoPopup from "./components/DeveloperInfo/DeveloperinfoPopup"
+import DeveloperinfoPopup from "./components/DeveloperInfo/DeveloperinfoPopup"
 import { useState } from "react"
 
 
@@ -19,7 +19,7 @@ const App = () => {
    <>
    <div>
         {/* Your main application content */}
-        <DeveloperInfoPopup
+        <DeveloperinfoPopup
           show={showPopup}
           onClose={handleClosePopup}
           studentName="Aditya Adinath Kumbhar"
