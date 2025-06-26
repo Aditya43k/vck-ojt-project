@@ -78,7 +78,7 @@
 }
 
 /* Media Query for Mobile */
-@media (max-width: 968px) {
+@media (max-width: 1240x) {
   .hamburger {
     display: flex;
   }
