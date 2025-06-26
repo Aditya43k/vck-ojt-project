@@ -3,7 +3,7 @@ import HomePage from "./pages/HomePage"
 import AboutPages from "./pages/AboutPage"
 import CoursesPage from "./pages/CoursesPage"
 import ContactPage from "./pages/ContactPage"
-// import AdmissionPage from "./pages/AdmissionPage"
+// import AdmissionPage from "./pages/AdmissionPage
 import ChatbotComponent from "./components/Chatbot/ChatbotComponent"
 import DeveloperInfoPopup from "./components/DeveloperInfo/DeveloperinfoPopup"
 import { useState } from "react"
@@ -22,7 +22,7 @@ const App = () => {
           show={showPopup}
           onClose={handleClosePopup}
           studentName="Aditya Adinath Kumbhar"
-          studentPhotoUrl="/images/aak.jpg" // Path to their photo
+          studentPhotoUrl="/images/aak.jpg" 
           uniqueMessage="Learned so much during this OJT! This app showcases my independent coding and deployment skills"
         />
       </div>
