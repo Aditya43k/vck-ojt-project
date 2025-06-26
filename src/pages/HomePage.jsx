@@ -10,7 +10,6 @@ const HomePage = () => {
          <>
            
              <Header />
-             <Link/>
             <div className="main-wrapper"> 
                 
                 <div className="main-box"> 
