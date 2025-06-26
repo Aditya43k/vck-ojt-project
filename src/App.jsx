@@ -4,7 +4,7 @@ import AboutPages from "./pages/AboutPage"
 import CoursesPage from "./pages/CoursesPage"
 import ContactPage from "./pages/ContactPage"
 import AdmissionPage from "./pages/AdmissionPage"
-import ChatbotComponent from "./components/CHATBOT/ChatbotComponent"
+import ChatbotComponent from "./components/Chatbot/ChatbotComponent"
 
 
 const App = () => {

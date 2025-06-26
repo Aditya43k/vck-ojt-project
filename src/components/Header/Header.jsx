@@ -10,7 +10,7 @@ const Header = () => {
   return (
     
       <header className="header1">
-        <div className="brand">Vivekanand College</div>
+        <a href="/home" className="brand"><h2 className="vck-lnk">Vivekanand College</h2></a>
 
         <div className="hamburger" onClick={toggleNav}>
           <div className="bar"></div>
