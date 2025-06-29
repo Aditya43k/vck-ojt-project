@@ -26,6 +26,7 @@
   display: none;
   flex-direction: column;
   cursor: pointer;
+  margin-left: auto;
 }
 
 .bar {
@@ -78,7 +79,7 @@
 }
 
 /* Media Query for Mobile */
-@media (max-width: 1240px) {
+@media (max-width: 463px) {
   .hamburger {
     display: flex;
   }
@@ -103,12 +104,25 @@
   .brand {
     font-size: 1.3rem;
   }
+
   .hamburger {
   display: flex !important;
+
+}
+  
 }
 
-}.vck-lnk
+.vck-lnk
 {
   font-weight: 700;
   font-size: 1.8em;
+}
+
+@media (max-width: 375px) {
+      .vck-lnk
+      {
+        font-size: 19px;
+      }
+
+    
 }
