@@ -47,7 +47,7 @@ const HomePage = () => {
                         <div className="rdy">
                         <p>Explore our vibrant campus and state-of-the-art facilities designed to enhance your learning experience and personal growth.</p>
                         <p>Ready to explore our courses?</p>
-                     <a className="primary-btn" href="/Courses" data-discover="true">Explore Courese</a>
+                     <Link to="/courses">Explore Courese</Link>
                         </div>
                     </div>
                 </div>

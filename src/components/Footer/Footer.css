@@ -16,3 +16,11 @@
     text-align: center;
     width: 100%;
 }
+
+@media (max-width: 375px) 
+{
+    #footer
+    {
+        height: 40px;
+    }
+}
