@@ -70,7 +70,7 @@ button:focus-visible {
 
 html, body {
   width: 100%;
-  overflow-x: hidden;   /* force-hide horizontal scrollbar */
+  overflow-x: hidden;    /*force-hide horizontal scrollbar */
 }
 
 * {
