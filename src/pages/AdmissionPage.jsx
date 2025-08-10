@@ -1,5 +1,6 @@
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
+import { Link } from "react-router-dom";
 
 const AdmissionPage = () => {
     return(
@@ -56,7 +57,7 @@ const AdmissionPage = () => {
                         <b>Step 3 - Entrance Exam <i>(if applicable)</i>:</b>Appear for the college's entrance examination.<br/><br />
                         <b>Step 4 - Merit List & Interview: </b>Check the merit list and attend the interview if shortlisted.<br/><br />
                         <b>Step 5 - Fee Payment: </b>Complete the admission by paying the required fees.<br/><br />
-                        For detailed information on postgraduate program admissions, specific program syllabi, and fee structures, please visit our <a href="/courses">Courses</a> page or <a href="/contact">Contact</a> us directly.
+                        For detailed information on postgraduate program admissions, specific program syllabi, and fee structures, please visit our <Link to="/courses">Courses</Link> page or <a href="/contact">Contact</a> us directly.
                         </p>
 
                     </div> 
