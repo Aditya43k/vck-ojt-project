@@ -455,5 +455,16 @@ body {
 
 #crs
 {
-  background-color: #218838;
+  background: #4caf50;
+    color: #fff !important;
+    padding: 10px 22px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background .2s;
+    text-align: center;
+    text-decoration: none;
 }
